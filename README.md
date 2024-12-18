@@ -1,5 +1,5 @@
-# SUPMAP-
-Contexte du projet 
+# SUPMAP
+Contexte du projet :
 La société fictive Trafine souhaite développer une application de navigation en temps réel, similaire à Waze, qui permettrait aux utilisateurs de recevoir des informations sur la circulation, les accidents et les obstacles.
 
 Cette application devra également permettre aux utilisateurs de signaler des incidents et de recevoir des itinéraires optimisés en fonction des conditions de circulation. 
