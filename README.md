@@ -9,3 +9,6 @@ Le projet devra inclure une application mobile pour les utilisateurs, une interf
 Pour la bêta, Trafine souhaite se concentrer sur les trajets en France métropolitaine. 
 
  
+# Commandes pour lancer l'environnement
+
+# Configuration de base
