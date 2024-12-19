@@ -114,7 +114,7 @@ Pour la bêta, Trafine souhaite se concentrer sur les trajets en France métropo
 - **Machine de Développement** :
   - Docker et docker-compose
   - .NET SDK 8 (LTS)
-  - VS Code (ou tout autre éditeur).
+  - VS Code (nano).
 
 ### Réseau
 - **Plugin réseau** : Calico
