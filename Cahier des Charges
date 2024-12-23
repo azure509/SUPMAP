@@ -1,6 +1,6 @@
-# Cahier des Charges - Projet SUPMAP
+#Cahier des Charges - Projet SUPMAP
 
-## 1. Contexte du Projet
+##1. Contexte du Projet
 La société Trafine souhaite développer une application de navigation en temps réel similaire à Waze. Cette application permettra aux utilisateurs :
 - De naviguer avec des itinéraires optimisés.
 - De recevoir des alertes sur les conditions de circulation.
@@ -11,8 +11,8 @@ Pour la phase bêta, l'application sera concentrée sur les trajets en France m�
 
 ---
 
-## 2. Objectifs
-### Objectif principal
+##2. Objectifs
+###Objectif principal
 Fournir une solution intuitive et efficace pour les utilisateurs souhaitant naviguer et éviter les problèmes liés à la circulation en temps réel.
 
 ### Objectifs secondaires
