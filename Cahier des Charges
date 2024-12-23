@@ -1,0 +1,120 @@
+# Cahier des Charges - Projet SUPMAP
+
+## 1. Contexte du Projet
+La société Trafine souhaite développer une application de navigation en temps réel similaire à Waze. Cette application permettra aux utilisateurs :
+- De naviguer avec des itinéraires optimisés.
+- De recevoir des alertes sur les conditions de circulation.
+- De signaler des incidents et obstacles.
+- De contribuer à la communauté en validant ou infirmant des signalements.
+
+Pour la phase bêta, l'application sera concentrée sur les trajets en France métropolitaine.
+
+---
+
+## 2. Objectifs
+### Objectif principal
+Fournir une solution intuitive et efficace pour les utilisateurs souhaitant naviguer et éviter les problèmes liés à la circulation en temps réel.
+
+### Objectifs secondaires
+- Améliorer la fiabilité des informations de trafic grâce aux contributions communautaires.
+- Offrir une interface sécurisée et performante.
+
+---
+
+## 3. Fonctionnalités Clés
+
+### 3.1 Connexion
+- **Standard :** Création de compte avec email/mot de passe.
+- **OAuth2 :** Connexion via Google et Facebook.
+
+### 3.2 Navigation en Temps Réel
+- Calcul d'itinéraires optimisés selon le trafic en temps réel.
+- Recalcul automatique des itinéraires en cas d'incidents.
+- Affichage de l'itinéraire et des informations sur une carte interactive.
+
+### 3.3 Signalement d'Incidents
+- Types d'incidents signalables :
+  - Accidents
+  - Embouteillages
+  - Routes fermées
+  - Contrôles policiers
+  - Obstacles sur la route
+- Validation ou invalidation des signalements par la communauté.
+
+### 3.4 Gestion des Alertes
+- Notifications en temps réel basées sur l'itinéraire actif (embouteillages, accidents, etc.).
+
+### 3.5 Partage d'Itinéraires
+- Génération de codes QR pour partager les itinéraires entre plateformes (web et mobile).
+
+### 3.6 Contributions Communautaires
+- Validation des signalements par les utilisateurs pour augmenter la fiabilité.
+
+---
+
+## 4. Exigences Techniques
+
+### 4.1 Infrastructure
+- **Backend :** API REST ou GraphQL pour la gestion des itinéraires et signalements.
+- **Frontend :** Application mobile (Android/iOS) et interface web.
+- **Base de données :** Stockage scalable pour les données d'itinéraires, signalements et trafic.
+
+### 4.2 Sécurité
+- Authentification sécurisée (OAuth2).
+- Chiffrement des données sensibles (mot de passe, communications via HTTPS).
+- Protection contre les attaques (SQL Injection, XSS, CSRF).
+
+### 4.3 Déploiement
+- Containérisation avec Docker.
+- Fichier `docker-compose.yml` pour déployer les services.
+
+---
+
+## 5. Livrables
+- **Application mobile** (Android/iOS).
+- **Interface web** pour la gestion des données.
+- **Code source** documenté.
+- **Documentation technique** (installation, configuration, architecture).
+- **Manuel utilisateur** (guide d'utilisation de l'application).
+
+---
+
+## 6. Périmètre de la Bêta
+- Couverture géographique : France métropolitaine.
+- Fonctionnalités principales :
+  - Connexion utilisateur
+  - Navigation avec recalcul
+  - Signalement d'incidents
+  - Gestion des alertes
+
+---
+
+## 7. Planning Prévisionnel
+
+| Étape                | Durée Estimée   | Description                                      |
+|----------------------|-----------------|--------------------------------------------------|
+| Analyse des besoins  | 2 semaines      | Collecte des spécifications fonctionnelles.     |
+| Design des interfaces| 3 semaines      | Création des maquettes et prototypes.           |
+| Développement        | 8 semaines      | Implémentation des fonctionnalités principales. |
+| Tests                | 3 semaines      | Vérification et correction des bugs.            |
+| Déploiement          | 1 semaine       | Mise en ligne des applications.                 |
+
+---
+
+## 8. Budget Estimatif
+- Développement : 20 000 €
+- Hébergement et infrastructure : 5 000 €/an
+- Maintenance : 3 000 €/an
+
+---
+
+## 9. Critères de Réussite
+- Application fonctionnelle et ergonomique.
+- Navigation précise et mise à jour en temps réel.
+- Signalements fiables grâce à la communauté.
+- Respect des délais et du budget.
+
+---
+
+Ce cahier des charges pourra être ajusté au fur et à mesure des besoins du projet.
+
